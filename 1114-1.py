@@ -1,0 +1,10 @@
+from tkinter import *
+window = Tk()
+window.title("1114_1")
+lab1 = Label(window,text="hihihihihi",bg="lightyellow")
+lab2 = Label(window,text="lorem text",bg="lightgreen")
+lab3 = Label(window,text="hahahahahaha",bg="lightblue")
+lab1.pack(side=LEFT,fill=X)
+lab2.pack(pady=10)
+lab3.pack(fill=X)
+window.mainloop()
