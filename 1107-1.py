@@ -1,0 +1,22 @@
+from tkinter import *
+# from PIL import Image,ImageTk
+root = Tk()
+root.title('lebal practic')
+root.geometry("480x800")
+root.configure(bg="MistyRose")
+#root.iconbitmap("people.ico")
+label_1 = Label(root,text="test-data-1",fg = "#800000",bg="Orange",height=3,width=15)
+label_1.pack()
+label_2 = Label(root,text="test-data-2",fg = "#ffffff",bg="blue",height=5,width=25,anchor="se")
+label_2.pack()
+label_3 = Label(root,text="test-data-3",font = "微軟正黑體 28 bold italic overstrike",height=3,width=15)
+label_3.pack()
+label_4 = Label(root, bitmap="info",compound="left",text="注意",relief="raised",padx=40,pady=20)
+label_4.pack()
+
+# image = Image.open("index.jpeg")
+# m1 = image.resize(image.width//5,image.height//5)
+# SAO = ImageTk.PhotoImage(image)
+# label_5 = Label(root,image=SAO)
+# label_5.pack()
+root.mainloop()
